@@ -1,30 +1,41 @@
-div {
-    text-decoration: underline;
-    color:blueviolet;
-    font-family: cursive;
-}
 P {
     text-align: center;
     font-weight: bold;
 }
-body {
+.LogoImagen {
+max-width: 5.50%;
+}
+.BordeLogo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 1px #9e9e9e;
+    font-weight: bold;
+    color: #efb810;
+}
+.slogan{
+    font-size: 35px;
+    text-align: center;
+    color: #000000;
+}
+.ImagenOnix{
+    max-width: 100%;
+}
+header {
+    font-size: 24px;
+    text-align: left;
     background-color: #000000;
+}
+body {
+    background-color: #ffffff;
     color: #caa500;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-header {
-    background-color: #cc8b00;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
 section {
     padding: 20px;  
 }
 footer {
-    background-color: #bd8100;
+    background-color: #ffffff;
     color: #fff;
     padding: 20px 0; 
 }
@@ -34,8 +45,8 @@ footer {
     text-align: center; 
 }
 nav {
-background-color: #bb8f00;
-padding: 10px;
+background-color: #ffffff;
+padding: 5px;
 }
 nav ul {
 list-style: none;
@@ -48,18 +59,12 @@ display: inline-block;
 margin-right: 20px;
 }
 nav ul li a {
-color: #000000;
+color: #727070;
 text-decoration: none;
 padding: 8px 16px;
 border-radius: 5px;
 }
 nav ul li a:hover {
-background-color: #a82700;
-}
-img {
-display: block;
-margin-right: auto;
-max-width: 25%;
-border: 3px solid #69bd45;
-border-radius: 10px;
+    color: #4f6fff;
+    text-decoration: underline #4f6fff 5px;
 }
